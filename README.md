@@ -1,6 +1,7 @@
 ## UTKFace race classifier ##
 
-1. ** UTKFace data analysis: **  
+1. **UTKFace data analysis:**  
+
    UTKFace dataset source -> (https://susanqq.github.io/UTKFace/)  
    UTKFace dataset is a large-scale face dataset with long age span (range from 0 to 116 years old). The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity.  
    
@@ -13,7 +14,7 @@
    * UTKFace-CNN-race-classifier.ipynb  
    * UTKFace-all_model_predict_curves.ipynb 
    
-   **model history**
+   ***model history***
    * **VGG16**_history.json 
    
    Use **ResNet50** -> val accuracy is ≈ **0.81 ~ 0.82**.  
@@ -26,7 +27,8 @@
    * **Xception-unfreeze**_history.json  
    ![Xception](https://github.com/tonyhsu32/UTKFace-race-classifier/blob/main/Xception.png)
    
-   **Self-Supervised learning weights (Noisy-student, ImageNet21K, ImageNet21K-ft1K)**  
+   ***Self-Supervised learning weights (Noisy-student, ImageNet21K, ImageNet21K-ft1K)***  
+   
    Use **EfficientnetV2-l-21k-ft1k** -> val accuracy is ≈ **0.85**.
      * **EfficientnetV2-l-21k-ft1k**_history.json  
      ![EfficientnetV2-l-21k-ft1k](https://github.com/tonyhsu32/UTKFace-race-classifier/blob/main/EfficientnetV2-l-21k-ft1k.png)  
